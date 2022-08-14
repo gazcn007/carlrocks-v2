@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="0 0 928 1036" width="928" height="1036">
+  <defs>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Arrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#34c6a6">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#34c6a6">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="17" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.17.1\n2020-07-29 05:01:18 +0000</metadata>
+  <g id="Canvas_1" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Layer_1_Master_layer">
+      <title>Master layer</title>
+      <g id="Group_143">
+        <g id="Graphic_217">
+          <rect x="378" y="173" width="216" height="206" fill="#e2e2e2"/>
+          <rect x="378" y="173" width="216" height="206" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(383 178)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">add(E e) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="25">addAll(Collection c) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="39">clear() : void</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="53">contains(Object o) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="67">containsAll(Collection c) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="81">equals(Object o) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="95">hashcode() : int</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="109">isEmpty() : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="123">remove(Object o) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="137">removeAll(Collection c) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="151">retainAll(Collection c) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="165">size() : int </tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="179">toArray() : Object [ ]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_216">
+          <rect x="378" y="135" width="216" height="38" fill="#e2e2e2"/>
+          <rect x="378" y="135" width="216" height="38" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(383 140)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="63.97363" y="11">&lt;&lt;Interface&gt;&gt;</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="73.99902" y="25">Collection</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_218">
+        <g id="Graphic_220">
+          <rect x="378" y="83" width="216" height="24" fill="#e2e2e2"/>
+          <rect x="378" y="83" width="216" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(383 88)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">iterator() : Iterator&lt;E&gt;</tspan>
+          </text>
+        </g>
+        <g id="Graphic_219">
+          <rect x="378" y="45" width="216" height="38" fill="#e2e2e2"/>
+          <rect x="378" y="45" width="216" height="38" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(383 50)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="63.97363" y="11">&lt;&lt;Interface&gt;&gt;</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="82.328125" y="25">Iterator</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_221">
+        <g id="Graphic_223">
+          <rect x="9" y="473.5" width="333" height="108" fill="#e2e2e2"/>
+          <rect x="9" y="473.5" width="333" height="108" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(14 478.5)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">add(int index, E element) : void</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="25">addAll(int index, Collection c) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="39">get(int index) : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="53">indexOf(Object o) : int</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="67">lastIndexOf(Object o) : int // index of last occurrence of Obj o</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="81">set(int index, E element) : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="95">subList(int fromIndex, int toIndex) : List&lt;E&gt;</tspan>
+          </text>
+        </g>
+        <g id="Graphic_222">
+          <rect x="9" y="435.5" width="333" height="38" fill="#e2e2e2"/>
+          <rect x="9" y="435.5" width="333" height="38" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(14 440.5)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="122.47363" y="11">&lt;&lt;Interface&gt;&gt;</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="150.833" y="25">List</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_226">
+        <path d="M 175.5 435.5 L 175.5 333 L 243 333 L 365.1 333" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_227">
+        <g id="Graphic_229">
+          <rect x="360" y="487" width="315" height="80" fill="#e2e2e2"/>
+          <rect x="360" y="487" width="315" height="80" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(365 492)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">element( ) : E // sorta like peek</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="25">offer(E e) : boolean </tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="39">peek() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="53">poll() : E // retrieve and remove the head, null if empty</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="67">remove() : E // retrieve and remove the head, err if empty</tspan>
+          </text>
+        </g>
+        <g id="Graphic_228">
+          <rect x="360" y="449" width="315" height="38" fill="#e2e2e2"/>
+          <rect x="360" y="449" width="315" height="38" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(365 454)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="113.47363" y="11">&lt;&lt;Interface&gt;&gt;</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="133.8291" y="25">Queue</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_230">
+        <line x1="517.5" y1="449" x2="517.5" y2="391.9" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_231">
+        <line x1="486" y1="135" x2="486" y2="119.9" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_232">
+        <g id="Graphic_234">
+          <rect x="450" y="743" width="315" height="220" fill="#e2e2e2"/>
+          <rect x="450" y="743" width="315" height="220" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(455 748)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">addFirst(E e) : void</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="25">addList(E e) : void</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="39">descendingIterator() : Iterator&lt;E&gt;</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="53">getFirst() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="67">getLast() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="81">offerFirst() : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="95">offerLast() : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="109">peekFirst() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="123">peekLast() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="137">pollFirst() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="151">pollLast() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="165">removeFirst() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="179">removeLast() : E</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="193">removeFirstOccurrence(Object O) : boolean</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="207">removeLastOccurrence(Object O) : boolean</tspan>
+          </text>
+        </g>
+        <g id="Graphic_233">
+          <rect x="450" y="705" width="315" height="38" fill="#e2e2e2"/>
+          <rect x="450" y="705" width="315" height="38" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(455 710)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="113.47363" y="11">&lt;&lt;Interface&gt;&gt;</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="134.16309" y="25">Deque</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_235">
+        <line x1="607.5" y1="705" x2="607.5" y2="579.9" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_236">
+        <g id="Graphic_239">
+          <rect x="720" y="263" width="135" height="22" fill="#7e90b4"/>
+          <rect x="720" y="263" width="135" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_237">
+          <rect x="720" y="225" width="135" height="38" fill="#7e90b4"/>
+          <rect x="720" y="225" width="135" height="38" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(725 230)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="23.473633" y="11">&lt;&lt;Interface&gt;&gt;</tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="53.163086" y="25">Set</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_240">
+        <line x1="720" y1="255.44776" x2="606.8997" y2="256.198" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_241">
+        <g id="Graphic_243">
+          <rect x="45" y="842" width="135" height="22" fill="#7e90b4"/>
+          <rect x="45" y="842" width="135" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_242">
+          <rect x="45" y="818" width="135" height="24" fill="#7e90b4"/>
+          <rect x="45" y="818" width="135" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(50 823)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="36.15625" y="11">ArrayList</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_244">
+        <line x1="108" y1="818" x2="108" y2="594.4" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Group_245">
+        <g id="Graphic_247">
+          <rect x="243" y="842" width="135" height="22" fill="#7e90b4"/>
+          <rect x="243" y="842" width="135" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_246">
+          <rect x="243" y="818" width="135" height="24" fill="#7e90b4"/>
+          <rect x="243" y="818" width="135" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(248 823)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="32.49707" y="11">LinkedList</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_248">
+        <path d="M 310.5 818 L 310.5 674.75 L 175.5 674.75 L 175.5 594.4" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Line_249">
+        <path d="M 310.5 818 L 310.5 675 L 517.5 675 L 517.5 579.9" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Line_250">
+        <line x1="378" y1="841" x2="437.1" y2="841" marker-end="url(#Arrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Group_251">
+        <g id="Graphic_253">
+          <rect x="720" y="365" width="135" height="22" fill="#7e90b4"/>
+          <rect x="720" y="365" width="135" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_252">
+          <rect x="720" y="341" width="135" height="24" fill="#7e90b4"/>
+          <rect x="720" y="341" width="135" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(725 346)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="38.49121" y="11">HashSet</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_254">
+        <g id="Graphic_256">
+          <rect x="729" y="626" width="126" height="22" fill="#7e90b4"/>
+          <rect x="729" y="626" width="126" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_255">
+          <rect x="729" y="602" width="126" height="24" fill="#7e90b4"/>
+          <rect x="729" y="602" width="126" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(734 607)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="18.323242" y="11">PriorityQueue</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_259">
+        <path d="M 792 602 L 792 504 L 687.9 504" marker-end="url(#FilledArrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_263">
+        <circle cx="45" cy="55" r="9.00001438111707" fill="#f7788a"/>
+        <circle cx="45" cy="55" r="9.00001438111707" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_268">
+        <text transform="translate(68.2895 46)" fill="#26a55f">
+          <tspan font-family="Helvetica Neue" font-size="17" font-weight="400" fill="#26a55f" x="0" y="16">Implemented with Array</tspan>
+        </text>
+      </g>
+      <g id="Graphic_275">
+        <circle cx="45" cy="82" r="9.00001438111706" fill="#ffa35f"/>
+        <circle cx="45" cy="82" r="9.00001438111706" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_276">
+        <text transform="translate(68.2325 73)" fill="#26a55f">
+          <tspan font-family="Helvetica Neue" font-size="17" font-weight="400" fill="#26a55f" x="0" y="16">Implemented with List</tspan>
+        </text>
+      </g>
+      <g id="Graphic_277">
+        <circle cx="45" cy="109" r="9.00001438111706" fill="#78c545"/>
+        <circle cx="45" cy="109" r="9.00001438111706" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_278">
+        <text transform="translate(68.02249 101)" fill="#26a55f">
+          <tspan font-family="Helvetica Neue" font-size="17" font-weight="400" fill="#26a55f" x="881073e-18" y="16">Implemented with Red-Black Tree</tspan>
+        </text>
+      </g>
+      <g id="Graphic_279">
+        <circle cx="45" cy="136" r="9.00001438111707" fill="#47a2f1"/>
+        <circle cx="45" cy="136" r="9.00001438111707" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_280">
+        <text transform="translate(68.2405 128)" fill="#26a55f">
+          <tspan font-family="Helvetica Neue" font-size="17" font-weight="400" fill="#26a55f" x="1278977e-19" y="16">Implemented with Hash Table</tspan>
+        </text>
+      </g>
+      <g id="Graphic_281">
+        <circle cx="45" cy="163" r="9.00001438111707" fill="#00c9cc"/>
+        <circle cx="45" cy="163" r="9.00001438111707" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_282">
+        <text transform="translate(68 154)" fill="#26a55f">
+          <tspan font-family="Helvetica Neue" font-size="17" font-weight="400" fill="#26a55f" x="0" y="16">Implemented with Binary Heap</tspan>
+        </text>
+      </g>
+      <g id="Graphic_283">
+        <circle cx="45" cy="818" r="9.00001438111703" fill="#f7788a"/>
+        <circle cx="45" cy="818" r="9.00001438111703" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_284">
+        <circle cx="243" cy="818" r="9.00001438111704" fill="#ffa35f"/>
+        <circle cx="243" cy="818" r="9.00001438111704" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_285">
+        <circle cx="720" cy="342" r="9.00001438111709" fill="#47a2f1"/>
+        <circle cx="720" cy="342" r="9.00001438111709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_286">
+        <circle cx="729" cy="602" r="9.00001438111705" fill="#00c9cc"/>
+        <circle cx="729" cy="602" r="9.00001438111705" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_288">
+        <line x1="787.5" y1="341" x2="787.5" y2="297.9" marker-end="url(#FilledArrow_Marker)" stroke="#34c6a6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
