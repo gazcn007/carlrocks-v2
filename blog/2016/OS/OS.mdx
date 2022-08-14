@@ -4,7 +4,7 @@ date: 2016-10-09
 tags: [OS]
 ---
 
-#Process
+# Process
 - This note-blog basically covers readings of chapter 2
 - waitpid(pid_t pid, int *status, int options)
 
@@ -23,7 +23,7 @@ tags: [OS]
 	4. Initiation of a batch job.
 - Processes that stay in the background to handle some activity such as email, Web pages, news, printing, and so on are called _daemons_. (in UNIX，ps can be used to checkout background processes, windows->task manager)
 - Processes can create processes：Creating new processes is particularly useful when the work to be done can easily be formulated in terms of several related, but otherwise independent interacting processes. ->a new process is created by having an existing process execute a process creation system call. 
-- In UNIX (including almost all POSIX-based systems, including Linux, FreeBSD, OS X), there is only one system call to create a new process: <span style="color:red">_fork()_</span>. Usually, the child process then executes _execve_ or a similar system call to change its memory image and run a new program. 0, get id, 1. fork off, 2. execve
+- In UNIX (including almost all POSIX-based systems, including Linux, FreeBSD, OS X), there is only one system call to create a new process: _fork()_. Usually, the child process then executes _execve_ or a similar system call to change its memory image and run a new program. 0, get id, 1. fork off, 2. execve
 - `In Windows, in contrast, a single Win32 function call, CreateProcess, handles both process creation and loading the correct program into the new process. This call has 10 parameters, which include the program to be executed, the com- mand-line parameters to feed that program, various security attributes, bits that control whether open files are inherited, priority information, a specification of the window to be created for the process (if any), and a pointer to a structure in which information about the newly created process is returned to the caller. In addition to CreateProcess, Win32 has about 100 other functions for managing and synchro- nizing processes and related topics.`
 - Two ways of creating a new process
 	Windows (building from stratch):
@@ -37,7 +37,7 @@ tags: [OS]
 	> `2. make a copy of code, data, heap and process control block`
 	> `3. make process known to process scheduler (dispatcher)`
 
-- <p style="color:red">Also it important to note that in UNIX, there are only two ways to start a process that is not in the Init(which is the initalization process tree): exec() and fork(). When you don't want another copy of the same program, you want to run a different program, exec() system call is used. It replaces the current running program with an entirely new one. This means that when you call exec, the operating system stops your process, loads up the new program, and starts that one in its place. A process never returns from an exec() call (unless there’s an error).</p>
+- Also it important to note that in UNIX, there are only two ways to start a process that is not in the Init(which is the initalization process tree): exec() and fork(). When you don't want another copy of the same program, you want to run a different program, exec() system call is used. It replaces the current running program with an entirely new one. This means that when you call exec, the operating system stops your process, loads up the new program, and starts that one in its place. A process never returns from an exec() call (unless there’s an error).
 	
 ### Process Termination-2.1.3
 - A process will terminate due to one of the following conditions:
@@ -61,21 +61,21 @@ tags: [OS]
 
 ![image](2.2.jpg)
 
-<div style="border: solid 1px grey; padding:15px">
-<div style="color:orange"> Transition 1 occurs when the OS discovers that a process can't continue right now. *Block has two types <div><span> 1. Logically not possible to continue (i.e. some input is missing)</span> <span>2. OS decided to take its resources to another process</span></div></div>
-<div style="color:red"> Transitions 2 and 3 are caused by process scheduler (process doesn't know about them even). Transition 2 occurs when the scheduler decides the running process has run long enough, and it's time for other process to use the CPU. Transition 3 occurs when all other processes have had their fair share, and it's time to let first process to use the CPU agian. </div>
-<div style="color:green">Transition 4 is for Transition 1's response, when an I/O is ready for the process that has been waiting. </div></div>
+:::note
+- Transition 1 occurs when the OS discovers that a process can't continue right now. *Block has two types - 1. Logically not possible to continue (i.e. some input is missing), 2. OS decided to take its resources to another process
+- Transitions 2 and 3 are caused by process scheduler (process doesn't know about them even). Transition 2 occurs when the scheduler decides the running process has run long enough, and it's time for other process to use the CPU. Transition 3 occurs when all other processes have had their fair share, and it's time to let first process to use the CPU agian.
+- Transition 4 is for Transition 1's response, when an I/O is ready for the process that has been waiting.
+:::
 
-<div style="border: solid 1px grey; padding:30px; margin-top:30px">
-
+:::info
 Normally there are 3 types of schedulers are available in operating systems.
 1. Long term scheduler: long term scheduler selects the processes which are in the disk(input queue)and load them in to the main memory.
 2. Mid term scheduler: The medium term scheduler selects the jobs which are waiting for the I/O devices and remove them from the contest for the cpu and place them in the appropriate device queue
 3. Short term scheduler: The short term scheduler selects the processes in the main memory which are waiting for cpu and allocate them to the cpu for execution.
 *. Scheduler is also program written in Code. The lowest level of the OS is the scheduler, with a variety of processes on top of it.
 ![image](2.3.jpg)
+:::
 
-</div>
 - *Another state of suspension can be used to add into the three-state diagram. Suspending State means to move a process out of RAM and put that into HD, so more processes can have space in RAM to run*
 
 Support material, another Process State Diagram:

@@ -20,6 +20,7 @@ tags: [OS]
 	- A system call involves trapping into Kernel, which executes an interuption to Kernel. A Function Call generally refers to a call to a piece of code in the user space, thought, there might be system calls involved in a function call in specific cases such as fopen().
 	- System call involves a mode switch from user to kernel. 
 	- Functionality: system calls are set by OS developer, function call can be arbitarily written by the programmer
+
 <!--truncate-->
 2. **Q: How is system call processing different from interrupt servicing?**
 	- In OS level: An interrupt is triggered by an asynchronous external event. At interrupt, the interrupt service routine pointed to by the interrupt service vector is executed. In a modern OS, the interrupt service routines and vectors are managed by the kernel. A system call (or fault or trap) is triggered synchronously by executing code. A process continues to execute its code stream in a system call, but not in an interrupt. 
@@ -28,14 +29,18 @@ tags: [OS]
 	- Mode Switching is switching from user to kernel mode to process the system call (TRAP system call). This reminds me of the difference between monolithic kernel and a microkernel mentioned in the Chapter 1 of the Textbook. Linux is a monolithic OS, there is no mode switching necessary since system calss and interrupts are handled in Kernel. The problem with no mode switching is that there is no information hiding, every procedure is visible to other procedures. The significance of Mode Switching comes in handy when security is needed, since a code bug in user-space will not break down the whole OS.
 	- Mode switching is also essential since a system call is to run procedures that have higher **privileges**. i.e. Context switches (occurs when a computer's CPU switches from one process or thread to a different process or thread), context switches need scheduler to access the process table and next process's memory map, both of which are not accessible to old process and therefore require privilege elevation.
 4. **Q: Consider a uni-programming system. The user wants to run job A and job B. A has the following characteristics: runs for 10 ms waits for 990ms and the pattern continues for many iterations. Job B runs for 10 ms and waits for 400ms and the pattern continues for many  iterations. If you are measuring CPU utilization values over half second intervals, what are the possible values you could get?**
-<div style="border: solid 1px grey; padding-left:10px; margin:8px">half second interval = 0.5 s = 500 ms 
-Job A runs 10 ms and waits 990 ms, total uses 1000ms
-Job B runs 100 ms and waits 400 ms, total uses 500ms
-For 500ms, we can only pick either Job A to run or Job B to run.
-if pick A, 10/500=2\% CPU usage
-if Pick B, 100/500=20\% CPU usage
-if Pick A at the interval of A waiting, then 0/500=0%
-</div>
+
+:::note
+- half second interval = 0.5 s = 500 ms 
+- Job A runs 10 ms and waits 990 ms, total uses 1000ms
+- Job B runs 100 ms and waits 400 ms, total uses 500ms
+
+- For 500ms, we can only pick either Job A to run or Job B to run.
+- if pick A, 10/500=2\% CPU usage
+- if Pick B, 100/500=20\% CPU usage
+- if Pick A at the interval of A waiting, then 0/500=0%
+:::
+
 5. **Q: In the system given in 4, we enabled multi-programming. There is a single processor in the system and just jobs A and B. What are the time measured utilization values over half second intervals in this case?**
 Run Job A first and Run Job B while A goes into waiting mode. 10+100/500=22%. However, it depends on how you schedule them and where you are taking the 500ms interval, 10/500 is possible, 100/500 is possible, and 0/500 is possible too.
 6. **Q: Why is memory protection an imporant concern with multi-programming**

@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import { TreeChart } from '@patternize/components'
 
 const FeatureList = [
   {
@@ -35,7 +36,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -49,15 +50,64 @@ function Feature({Svg, title, description}) {
   );
 }
 
+
+export const PersonalChart = () => {
+  const tree = {
+    "name": "👨🏻‍💻",
+    "children": [{
+      "name": "Software Engineer 💻",
+      "children": [
+        {
+          "name": "Tableau Software 📈",
+          "children": [{
+            "name": "Salesforce ☁️", "children": [{
+              "name": "Airbnb 🏡",
+              "children": [{ "name": "Presence 🎮" }]
+            }]
+          }]
+        }
+      ]}
+    , {
+      "name": "Hobby",
+      "children": [
+        {
+          "name": "Workout 🏋🏻",
+          "children": [{ "name": "Soccer ⚽️" }, { "name": "Running 🏃🏻‍♀️" }, { "name": "Gym 😅" }]
+        },
+        {
+          "name": "Music 🎵",
+          "children": [{
+            "name": "Guitar 🎸"
+          },{
+            "name": "Favorites ❤️", "children": [{"name": "The Beatles"}, {"name": "Mozart"}, {"name": "Schumann"}, {"name": "Prokofiev"}]
+          }]
+        },
+        {
+          "name": "Photography 📷",
+          "children": [{
+            "name": "Sony A73",
+            "children": [{
+              "name": "Travel Photography"
+            }]
+          }]
+        }
+      ]
+    }
+    ],
+  };
+  return <>{typeof window !== 'undefined' && <TreeChart data={tree} />}</>
+}
+
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
-        </div>
+        </div> */}
+        <PersonalChart />
       </div>
     </section>
   );

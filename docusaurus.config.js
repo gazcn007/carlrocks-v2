@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Carl Liu',
-  tagline: 'Guitars are cool',
+  tagline: 'How hard can it be?',
   url: 'https://carlrocks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
