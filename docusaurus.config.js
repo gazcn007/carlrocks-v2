@@ -69,36 +69,31 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             to: "docs/Patterns/Backtracking/Introduction",
             label: "Patterns",
-            position: "left",
+            position: "right",
             activeBasePath: "docs/Patterns"
           },
           {
             to: "docs/Algorithms/Sorting/BubbleSort",
             label: "Algorithms",
-            position: "left",
+            position: "right",
             activeBasePath: "docs/Algorithms"
           },
           {
             to: "docs/DataStructures/Basic/BinaryTree/Definitions&&Properties",
             label: "Data Structures",
-            position: "left",
+            position: "right",
             activeBasePath: "docs/DataStructures"
           },
           {
             to: "docs/Language/Java/Overview",
             label: "Language",
-            position: "left",
+            position: "right",
             activeBasePath: "docs/Language"
-          },
-          {to: '/blog', label: 'Blog', position: 'right'},
-          {
-            href: 'https://github.com/gazcn007',
-            label: 'GitHub',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {
@@ -135,7 +130,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'About me',
             items: [
               {
                 label: 'Blog',
@@ -145,6 +140,11 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/gazcn007',
               },
+              {
+                href: 'https://carlrocks.com/pdf/CARL-CV.pdf',
+                label: 'Resume',
+                position: 'right',
+              }
             ],
           },
         ],
