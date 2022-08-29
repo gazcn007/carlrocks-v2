@@ -155,6 +155,17 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['php']
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '0DAM18B7XY',
+        // Public API key: it is safe to commit it
+        apiKey: '39ab63ecbddc6d7347e2fc2e8a7f2d77',
+        indexName: 'carlrocks',
+        // Optional: see doc section below
+        contextualSearch: true,
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search'
+      },
     }),
   trailingSlash: false,
 };
