@@ -2,7 +2,7 @@
 layout: react
 title: React Conference 2019
 date: 2019-11-29 23:45:02
-tags: [React]
+tags: [React, Frontend]
 ---
 ![Me, Tom Occhino (left) and Lee Bryon (right)](LeeAndTom.jpg)
 
