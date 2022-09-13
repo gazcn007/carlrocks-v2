@@ -32,7 +32,7 @@ That's why we should try to read original papers and textbooks written in the au
 It's important to also categorize information, the major and important categories are:
 - Timeliness
     - The newest information that keeps you updated on what's going on around the world
-    - Usually has an expiration date (of course you won't read news about a new Nokia phone annoucement in 2003)
+    - Usually has an expiration date (time-bound; of course you won't read news about a new Nokia phone annoucement in 2003)
     - Location matters sometimes too (I read less European news because I don't live there. I don't read news on pigeon birth rate in South Pole at all!)
 - Knowledge
     - Boolean or linear, you know it or you don't know it
