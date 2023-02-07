@@ -3,6 +3,7 @@
 
 # Production
 /build
+/gazcn007.github.io
 
 # Generated files
 .docusaurus

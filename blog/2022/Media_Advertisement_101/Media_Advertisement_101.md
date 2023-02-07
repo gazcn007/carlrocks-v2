@@ -55,6 +55,8 @@ Media buy (also called media buying) is a way of advertisement and promotion. Si
     - LTV III: User's Profit - (Advertising Cost + Staff + Operation + Office + System Maintenance + etc.)
 :::
 
+- more read on Pricing Strategy with better understanding on CAC and LTV, you can read [Price Intelligently SaaS Pricing Strategy](https://www.priceintelligently.com/hubfs/Price-Intelligently-SaaS-Pricing-Strategy.pdf)
+
 Lets do some exercises
 
 :::note Exercise 1
