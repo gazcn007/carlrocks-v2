@@ -159,7 +159,7 @@ const config = {
         // The application ID provided by Algolia
         appId: '0DAM18B7XY',
         // Public API key: it is safe to commit it
-        apiKey: '39ab63ecbddc6d7347e2fc2e8a7f2d77',
+        apiKey: 'a6c91cb1c19210707f41e20257215892',
         indexName: 'carlrocks',
         // Optional: see doc section below
         contextualSearch: true,

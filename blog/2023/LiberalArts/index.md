@@ -65,13 +65,15 @@ As creators, we have to understand how a Tech product is built. I think there ar
 
 At most software companies, the product is an implementation of a design; on a higher level, a design is inspired by culture. One observation I found is in Steve Jobs's favorite subject - _**calligraphy**_:
 
-### Case 1 - Calligraphy Evolution
+### Case 1 - Sans Serif Evolution
 
 In recent years, brands are moving from Serif to Sans Serif for minimalism, which is identified as the mainstream culture of our era, Google, Facebook, and Airbnb all rebranded their logo to use Sans Serif to look techier, interestingly, so did the traditional fashion brands including Burberry and Saint Laurent.
 
-| Calligraphy Serif vs Sans Serif | Brand Logo Evolution From Serif to Sans Serif |
-| ------------------------------- | --------------------------------------------- |
-| ![](serif-vs-sans-serif.png)    | ![](brands.png)                               |
+| Serif vs. Sans Serif         | Brand Logo Evolution From Serif to Sans Serif |
+| ---------------------------- | --------------------------------------------- |
+| ![](serif-vs-sans-serif.png) | ![](brands.png)                               |
+
+> I learned about serif and san serif typefaces, about varying the amount of space between different letter combinations, about what makes great typography great. It was beautiful, historical, artistically subtle in a way that science can’t capture, and I found it fascinating. -- Steve Jobs
 
 ### Case 2 - Airbnb
 
