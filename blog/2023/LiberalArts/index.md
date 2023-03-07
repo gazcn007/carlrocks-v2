@@ -57,6 +57,10 @@ I am a strong believer in "Orthogonal Learning", an approach to gathering inputs
 
 <!--truncate-->
 
+:::info
+There is Baader-Meinhof Phenomenon, which refers to an impression that something happens more frequently than it actually does after we learn something new
+:::
+
 ## Impact on Tech Product
 
 As creators, we have to understand how a Tech product is built. I think there are three levels, there is implementation, design, and culture.
