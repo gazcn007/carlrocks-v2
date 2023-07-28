@@ -7,29 +7,31 @@ tags: [Thoughts, Design]
 
 _**Definition of Liberal Arts**: Liberal Arts is intended to provide chiefly general knowledge and to develop general intellectual capacities (such as reason and judgment) as opposed to professional or vocational skills._
 
-_I grew up in China and Canada, for both countries, there is a tendency to divide faculties into the Faculty of Arts and Faculty of Science. Having worked at Presence, our pioneering AR tech startup, for a year, I realized that liberal arts education is underestimated in the Tech industry. In extreme cases, some engineers even think they should only focus on hard skills like coding, liberal arts is either unrelated or impractical. This blog explains why liberal arts is important to engineers._
+Growing up in two different countries, China and Canada, I encountered a common trend: faculties were often divided into the Faculty of Arts and Faculty of Science. However, my experience working as an engineer at Presence, a pioneering AR tech startup, has taught me that what is often underestimated in the tech industry is the value of liberal arts education.
+
+In some extreme cases, engineers believe that hard skills like coding are the only skills that matter, while liberal arts education is dismissed as irrelevant or impractical. However, I argue that this is a flawed perspective. In fact, liberal arts education can be just as valuable as hard skills for engineers working in the tech industry.
 
 ## Limitation of Engineering Education
 
-In my studying and working experience in the Tech industry, I found there are three major problems that people rarely discuss:
+Throughout my academic and professional experience in the technology industry, I have come to recognize three major issues that are rarely discussed.
 
 ### 1. Fixed Reward Mechanism
 
-In education, tech interviews, and working as software engineer, the standards for evaluating and rewarding are fixed. Engineers are obsessed with clean code, less memory and computation usage, and test coverage... These standards are questionable, for instance, Dan Abramov once blogged about [how obsession with clean code is troublesome](https://overreacted.io/goodbye-clean-code/). These reward mechanisms might train better engineers but less well-rounded creators in my opinion:
+In academia, technical interviews, and in the industry, the standards for evaluating and rewarding engineers are often fixed. Engineers tend to obsess over code cleanliness, optimization of memory and computation usage, and test coverage. While these standards may contribute to the development of better engineers, they may result in less creative problem-solvers overall. In fact, some experts in the field, like Dan Abramov, have highlighted [how an obsession with clean code can be problematic](https://overreacted.io/goodbye-clean-code/). Although there is value in these standards, they prioritize certain skills over others, and consequently, limit engineers' capacity to be well-rounded creators.
 
-- If my answers on the exam are elegant, I can ace the course.
-- If I write a perfect algorithm that solves the Hackerrank problem faster than everyone else, in both Time and Space, then I will get a job offer.
-- If we build a better API product than Stripe, people should ditch Stripe and just use ours.
+Examples of these reward mechanisms include getting an A in a course because your exam answers were elegant, or landing a job offer because you wrote a perfect algorithm that solved a Hackerrank problem faster than anyone else. Additionally, building a better API product than Stripe does not necessarily mean that people will abandon Stripe and use your product.
 
 ### 2. Narrow Field of View
 
-Engineers rarely talk to the customer, they simply write code (Well, great companies like Tableau bring their engineers to Las Vegas every year to meet customers at conferences, but in most Tech companies, engineers are only responsible to implement the features defined by their product manager and designers). Once getting used to this bottom-up working model, engineers become backstage runners. However, many influencers such as Paul Graham and Clayton Christensen highlighted the importance of understanding customers in their writing, here is a good quote from Paul in his ["Do things don't scale"](http://paulgraham.com/ds.html):
+Engineers often have limited interaction with customers. Typically, they focus on writing code, allowing product managers and designers to define the features that need to be implemented. This can result in a bottom-up working model where engineers remain in the background. However, numerous thought-leaders, like Paul Graham and Clayton Christensen, have emphasized the importance of understanding and interacting with customers. In his essay ["Do Things That Don't Scale"](http://paulgraham.com/ds.html), Paul Graham remarks that:
 
 > A lot of startup founders are trained as engineers, and customer service is not part of the training of engineers. You're supposed to build things that are robust and elegant, not be slavishly attentive to individual users like some kind of salesperson... **They'd rather sit at home writing code than go out and talk to a bunch of strangers and probably be rejected by most of them.** -- Paul Graham
 
 ### 3. Limitation of Experiments
 
-Science is based on experiments, but in a lot of liberal arts subjects, “experiments” rarely produce unequivocal answers: Design, Calligraphy, Music, etc. For people who study Music, for instance, it is intuitive that a particular compositional genre — be it romanticism, atonality, or jazz — will attract some while repulsing others.
+Although science is rooted in experiments, many liberal arts subjects such as design, calligraphy, and music produce results that are not always unequivocal. In music, for example, different compositional genres (romanticism, atonality, jazz) will attract and repel different audiences. This subjectivity within certain fields means that experimentation produces more open-ended results.
+
+Overall, recognizing these three limitations of engineering education can encourage engineers to develop broader skill sets so that they can become better communicators and creative thinkers.
 
 ## Universal Understanding
 
