@@ -37,6 +37,22 @@ const sidebars = {
       dirName: 'Patterns', // '.' means the current docs folder
     },
   ],
+  DailyLogs: [{
+      type: 'category',
+      label: 'Logs',
+      link: {
+        type: 'generated-index',
+        title: 'Carl\'s Daily Logs',
+        description:
+          "Some Thoughts 💡 In English and Chinese",
+        keywords: ['guides'],
+        image: '/img/docusaurus.png',
+      },
+      items: [
+        'DailyLogs/work-ergonomics/work-ergonomics'
+      ]
+    }
+  ],
 };
 
 module.exports = sidebars;
