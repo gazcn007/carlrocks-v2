@@ -2,6 +2,7 @@
 id: work-ergonomics
 title: 更健康更长久地工作
 sidebar_label: 更健康更长久地工作
+date: 2023-07-23
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

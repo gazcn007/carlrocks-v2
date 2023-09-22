@@ -49,6 +49,7 @@ const sidebars = {
         image: '/img/docusaurus.png',
       },
       items: [
+        'DailyLogs/the-good-bad-ugly/index',
         'DailyLogs/work-ergonomics/work-ergonomics'
       ]
     }

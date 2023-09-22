@@ -31,9 +31,9 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <div style={{ height: '1000px', width: '100%' }}>
+      <div style={{ height: '100%', width: '100%' }}>
         {/* <HomepageFeatures /> */}
-        {isLoading && <img height='100%' width='100%' src={require('@site/static/img/mac.jpg').default} />}
+        {isLoading && <img height='100%' width='100%' style={{display: 'block'}} src={require('@site/static/img/mac.jpg').default} />}
         <Spline
           onLoad={onLoad}
           fallback={<img src={require('@site/static/img/mac.jpg').default} />}
