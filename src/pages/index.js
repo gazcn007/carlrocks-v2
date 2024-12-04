@@ -28,17 +28,17 @@ export default function Home() {
 
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Hello World`}
+      description="Carl's Technology & Business Review">
       <HomepageHeader />
       <div style={{ height: '100%', width: '100%' }}>
         {/* <HomepageFeatures /> */}
         {isLoading && <img height='100%' width='100%' style={{display: 'block'}} src={require('@site/static/img/mac.jpg').default} />}
-        <Spline
+        {/* <Spline
           onLoad={onLoad}
           fallback={<img src={require('@site/static/img/mac.jpg').default} />}
           scene="https://prod.spline.design/JSpq-kjiQrYZYP72/scene.splinecode"
-        />
+        /> */}
       </div>
     </Layout>
   );

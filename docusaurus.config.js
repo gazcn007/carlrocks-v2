@@ -8,8 +8,8 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Carl Liu',
-  tagline: 'How hard can it be?',
+  title: "Carl’s Tech Journal",
+  tagline: 'Code, Craft, Create',
   url: 'https://carlrocks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -64,37 +64,42 @@ const config = {
         },
       },
       navbar: {
-        title: 'Carl Liu',
+        title: "Carl Liu",
         logo: {
           alt: 'Carlrocks.com',
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/docs/category/product', label: 'Product 💡', position: 'left'},
           {
-            to: "docs/Patterns/Backtracking/Introduction",
-            label: "Patterns",
-            position: "right",
-            activeBasePath: "docs/Patterns"
+            type: 'dropdown',
+            label: 'Technology 👨🏻‍💻',
+            position: 'left',
+            items: [
+              {
+                to: "docs/Patterns/Backtracking/Introduction",
+                label: "Patterns",
+                activeBasePath: "docs/Patterns"
+              },
+              {
+                to: "docs/Algorithms/Sorting/BubbleSort",
+                label: "Algorithms",
+                activeBasePath: "docs/Algorithms"
+              },
+              {
+                to: "docs/DataStructures/Basic/BinaryTree/Definitions&&Properties",
+                label: "Data Structures",
+                activeBasePath: "docs/DataStructures"
+              },
+              {
+                to: "docs/Language/Java/Overview",
+                label: "Language",
+                activeBasePath: "docs/Language"
+              },
+            ],
           },
-          {
-            to: "docs/Algorithms/Sorting/BubbleSort",
-            label: "Algorithms",
-            position: "right",
-            activeBasePath: "docs/Algorithms"
-          },
-          {
-            to: "docs/DataStructures/Basic/BinaryTree/Definitions&&Properties",
-            label: "Data Structures",
-            position: "right",
-            activeBasePath: "docs/DataStructures"
-          },
-          {
-            to: "docs/Language/Java/Overview",
-            label: "Language",
-            position: "right",
-            activeBasePath: "docs/Language"
-          }
+          {to: '/docs/category/photography', label: 'Photography 📷', position: 'left'}
         ],
       },
       footer: {
@@ -119,15 +124,7 @@ const config = {
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/users/13764675/gazcn007',
-              },
-              {
-                label: 'Steam',
-                href: 'http://steamcommunity.com/id/gazcn007',
-              },
-              {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/gazcn007/',
-              },
+              }
             ],
           },
           {
@@ -139,7 +136,7 @@ const config = {
               },
               {
                 href: 'https://carlrocks.com/pdf/CARL-CV.pdf',
-                label: 'Resume',
+                label: 'Official Resume',
                 position: 'right',
               }
             ],

@@ -6,6 +6,7 @@ date: 2023-07-23
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import GearCard from '@site/src/components/Gears/GearCard';
 
 July 20, 2023
 
@@ -120,3 +121,4 @@ $$
 - 方便查错：实际上打断点（breakpoint）的体验也是一种REPL，你可以逐行地执行代码，查看每一步的结果，有助于更好地理解代码的执行过程和发现潜在的问题。
 - 快速试验和学习：可以帮助初学者迅速验证代码，并在错误和问题出现时提供实时反馈。这种学习过程可以增加学习的信心和动力。
 
+<GearCard></GearCard>
