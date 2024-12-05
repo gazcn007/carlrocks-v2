@@ -43,6 +43,8 @@ const config = {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 10,
+          remarkPlugins: [math], // Added to support math in blog
+          rehypePlugins: [katex], // Added to support math in blog
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -70,36 +72,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'right'},
           {to: '/docs/category/product', label: 'Product 💡', position: 'left'},
-          {
-            type: 'dropdown',
-            label: 'Technology 👨🏻‍💻',
-            position: 'left',
-            items: [
-              {
-                to: "docs/Patterns/Backtracking/Introduction",
-                label: "Patterns",
-                activeBasePath: "docs/Patterns"
-              },
-              {
-                to: "docs/Algorithms/Sorting/BubbleSort",
-                label: "Algorithms",
-                activeBasePath: "docs/Algorithms"
-              },
-              {
-                to: "docs/DataStructures/Basic/BinaryTree/Definitions&&Properties",
-                label: "Data Structures",
-                activeBasePath: "docs/DataStructures"
-              },
-              {
-                to: "docs/Language/Java/Overview",
-                label: "Language",
-                activeBasePath: "docs/Language"
-              },
-            ],
-          },
-          {to: '/docs/category/photography', label: 'Photography 📷', position: 'left'}
+          {to: '/docs/category/technology', label: 'Technology 🤖', position: 'left'},
+          {to: '/docs/category/profolio', label: 'Lifestyle 📸', position: 'left'},
+          // {to: '/docs/About', label: 'Me', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'}
         ],
       },
       footer: {
@@ -131,8 +108,8 @@ const config = {
             title: 'About me',
             items: [
               {
-                label: 'Daily Logs',
-                to: '/docs/category/logs',
+                label: '中文博客',
+                to: '/docs/category/Chinese',
               },
               {
                 href: 'https://carlrocks.com/pdf/CARL-CV.pdf',
