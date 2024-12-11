@@ -42,9 +42,13 @@ const config = {
         blog: {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
-          blogSidebarCount: 10,
-          remarkPlugins: [math], // Added to support math in blog
-          rehypePlugins: [katex], // Added to support math in blog
+          blogSidebarCount: 15,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Carl Liu`,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,9 +76,9 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/docs/category/product', label: 'Product 💡', position: 'left'},
-          {to: '/docs/category/technology', label: 'Technology 🤖', position: 'left'},
-          {to: '/docs/category/profolio', label: 'Lifestyle 📸', position: 'left'},
+          {to: '/docs/Product/Startup/ARoadmap', label: 'Product', position: 'left'},
+          {to: '/docs/Technology/Algorithms/Backtracking/Introduction', label: 'Technology', position: 'left'},
+          {to: '/docs/Lifestyle/Journey', label: 'Lifestyle', position: 'left'},
           // {to: '/docs/About', label: 'Me', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'right'}
         ],
@@ -119,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Carlrocks.com, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Carl Liu`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -137,6 +141,17 @@ const config = {
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search'
       },
+      metadata: [{
+        name: 'robots',
+        content: 'index, follow'
+      }],
+      image: 'img/social-card.png',
+      ogImage: 'img/social-card.png',
+      twitterImage: 'img/social-card.png',
+      sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
     }),
   trailingSlash: false,
   stylesheets: [
@@ -147,6 +162,9 @@ const config = {
         'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
     },
+  ],
+  plugins: [
+    '@docusaurus/plugin-sitemap',
   ],
 };
 

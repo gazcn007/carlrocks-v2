@@ -2,6 +2,7 @@
 title: Guitar with a Touchpad
 date: 2015-4-30
 tags: [IoT]
+sidebar_position: 1
 ---
 
 # Guitar with a Touchpad

@@ -31,7 +31,7 @@ export default function Home() {
       title={`Hello World`}
       description="Carl's Technology & Business Review">
       <HomepageHeader />
-      <div style={{ height: '100%', width: '100%' }}>
+      <div style={{ height: '100%', width: '100%', pointerEvents: 'none' }}>
         {/* <HomepageFeatures /> */}
         {isLoading && <img height='100%' width='100%' style={{display: 'block'}} src={require('@site/static/img/mac.jpg').default} />}
         <Spline

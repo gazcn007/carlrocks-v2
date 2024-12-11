@@ -86,6 +86,10 @@ At the basic level, you need to know how and how much you spend to acquire a cus
     - Instagram: Strong CVR through visual appeal
     - LinkedIn: High CAC but justified by B2B focus
 
+:::info
+for more updated data for each of these metrics, refer to [Business of Apps](https://www.businessofapps.com/ads/cpi/research/cost-per-install/)
+:::
+
 ## Mutliplier
 
 The multiplier effect in startups refers to the rate at which a product or service spreads among users. It can be exponential or linear, impacting growth potential significantly.
