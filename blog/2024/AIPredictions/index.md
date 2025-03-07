@@ -2,102 +2,125 @@
 title: AI Predictions 2025
 date: 2024-12-09
 authors: [gazcn007, kjahan]
-tags: [Thoughts, Design]
+tags: [AI, Design, Thoughts]
+hide_table_of_contents: true
 ---
 
 ## Goal
 
-Here we want to share some of our anecdotal observations of what’s happening in the internet market post ChatGPT. We want to discuss some of the market disruption that we have observed and our predictions for the future.
+In this analysis, we explore how Large Language Models (LLMs) and AI technologies have fundamentally transformed the internet landscape since ChatGPT's debut. By examining market dynamics and how major players are adapting, we present four key predictions for the AI industry through 2025. Our forecast draws from current trends, market data, and emerging patterns in how businesses and users interact with AI technologies:
 
-## Long tail search market disruption
+1. **New Frontiers in Product Design**
+2. **The Search Will Shift**
+3. **LLMs as a Market Disruptor**
+4. **Future of LLM Development**
 
-There are so many companies like CourseHero, StackOverflow, reddit, wikipedia, Quizlet, and Chegg that used to receive lots of organic traffic from Google. However, we have noticed these websites' traffic has gone down since the inception of ChatGPT. See this article on stackoverflow showing 14% traffic loss in 2023. Also see this article on Chegg stock. Our hypothesis is that lots of younger users who have adopted ChatGPT and other AI assistant tools visit that website to get answers to their questions as opposed to Google in order to see links.
+## New Frontiers in Product Design
 
-We argue that Google traffic has gone down for these niche long tail searches. One anecdotal evidence for this is this article explaining the Code Red situation at Google. Also Google released an AI Overview for these niche searches in May. Note that they don’t really make ad revenue from this segment.
+### Shifting Metrics at Airbnb
 
-## Some Predictions
+A conversation with a senior design manager at Airbnb revealed a paradigm shift: instead of focusing on Page Performance Scores, the company now measures “Resolution Time”—how quickly an AI agent can meet user needs, whether it’s booking a stay or finding relevant info.
 
-- LLMs are getting better and they will eat more queries/questions over time. That means all apps leveraging AI will keep growing and the Google market will keep shrinking. Innovator's dilemma!
-- Lots of internet companies have to think about what the internet is going to look like in the future otherwise they will disappear in 3 to 5 years.
-- Companies like OpenAI and Perplexity need to figure out how to turn this to a scalable business model. They might fail but regardless LLM which is essentially a compressed internet will not go anywhere. For example there might be a chance that a new company will figure out the business model outside of the existing AI companies.
-- Post ChatGPT the distribution channels are going to be different!
+![](./abnb-metrics.jpg)
 
-## Scaling law and future of LLMs over the next year
+- **Implication**: Traditional UI metrics, such as load times and animations, may soon take a back seat to AI responsiveness and contextual understanding.
 
-A month ago I heard Elon Musk had built a cluster of 100k GPUs for the first time in Memphis. It seems no one could think this is possible including Microsoft. Some VCs claim this could put x.ai ahead of OAI. Apparently he also is working now on a cluster with 1mn GPUs. Some VCs are arguing that with these larger size clusters he might be able to get ahead of OAI and beat GPT-4 over the next few months with Grok 3. There are obviously so many other variables including if the scaling law really holds as well as if his team is able to pull this off. Interestingly I have seen in their job postings for x.ai they are saying they use JAX & Pytorch.
+### UI & UX Evolution
 
-Overhype vs under hype in the LLM market:
-I think it’s good to track what is over hyped and under hyped in the market:
-OAI improvement and its impact on LLM startups: This bitter lesson from Sutton in AI progress is a good way of thinking using history. I think any technique that gets better with more data/compute is the way to go. So one test is to check if a startup product will benefit from this or not. I have seen companies saying that oh we are not competing with OAI and as their model gets better, our system also gets better. One issue with this way of thinking is that if OAI model improvement improves your bottom line (e.g. coding assistant), then what will stop OAI from taking your market? We have seen this with ChatGPT taking a big portion of the writing market already.
-LLM startups overhype: We see a lot of investments in LLM startups. But, I think we should define what kind of startups could win and which ones have less chance. For example, considering bitter lessons, do startups working on prompt optimization/monitoring, hallucination detection will win? For example we know prompt optimization has become less relevant as models are getting better. A prompt optimization that helped GPT-3 was almost not important for GPT-4. Also the same for startups working on agentic solutions. This gets less relevant as models become more reliable. And historically we have seen models have been getting better since BERT. So I would not bet against the model's improvement.
+Historically, thoughtful design and playful animations helped mask slow load times or complicated workflows. In an AI-empowered future, design may prioritize minimizing friction:
 
-# How AIGC Revolutionized Customer Acquisition in the Digital Advertising Space
+- **Fewer Visible Elements**: As AI handles more behind-the-scenes tasks, users may interact through chat-style or voice-based UIs rather than multi-step pages.
+- **Analogies in Tech**: Cars evolved from bulky dashboards with physical buttons to sleek touchscreens—and now, self-driving vehicles with minimal driver interaction at all.
 
-When AI-generated content (AIGC) first started gaining traction, the technology seemed like a playground for creatives and technologists. But savvy marketers quickly saw its massive potential in one of the most competitive industries: **customer acquisition**.
+| Evolution of Car Interface | Description |
+|---------------------------|-------------|
+| ![2017 Macan](./2017macan.jpg) | Traditional dashboard with physical buttons (2017 Porsche Macan) |
+| ![2024 Macan](./2024macan.jpg) | Minimalist touchscreen interface (2024 Porsche Macan) |
+| ![Robo Taxi](./robotaxi.jpg) | Future autonomous vehicle with minimal driver controls |
 
-What started as experimental AI-generated images and videos quickly evolved into highly realistic content. This content was indistinguishable from human-made creations, and people couldn’t tell whether they were interacting with a real person’s account or a purely AI-powered entity. Enter **Digital Advertising Affiliates**—a new, wildly effective approach to acquiring customers at a fraction of traditional costs.
+### Designing for “Agentic” Experiences
 
----
+With AI agents poised to handle complex tasks autonomously, product designers must consider how to balance transparency, control, and convenience. Users may want to see how an AI is making decisions, but they also want effortless, immediate results. Striking this balance will define UX best practices in the years ahead.
 
-## The Rise of AIGC-Powered Affiliate Networks
+<!--truncate-->
 
-In practical terms, here's how it worked:
+## The Search Will Shift
+### Niche Queries and Google’s Traffic Decline
 
-1. **AIGC Meets Social Media**  
-   Affiliate marketers and MCN (Multi-Channel Network) companies began mass-producing social media accounts across platforms like TikTok, Twitter, and Instagram. These accounts leveraged AI-generated videos and images—polished, hyper-realistic, and tailored to niche audiences—to amass followers. Think “hot girl” Instagram accounts or ultra-luxurious TikTok creators, but all powered by AIGC.
+Until recently, Google dominated the long-tail search market. Users would type in very specific questions—ranging from study materials (the Verge, StackOverflow) to community-driven insights (Reddit)—and Google’s algorithm would serve relevant links. However, since ChatGPT’s launch, anecdotal data shows a notable dip in organic traffic for these niche content platforms. Instead of browsing multiple webpages, users are increasingly seeking direct, AI-generated answers.
 
-2. **Cost-Effective Customer Acquisition**  
-   These AIGC-powered accounts didn't just gain followers—they became prime real estate for startups. Startups signed deals with these affiliate networks to drive traffic to their apps and products. Unlike running traditional paid campaigns on Google or Facebook, where every impression costs money, this model replaced expensive **SEO** or **Media Buys** with self-owned audiences.
+### The Impact on Traditional Players
 
-   The result? **20x cheaper customer acquisition costs** compared to traditional platforms like Google Ads.
+- **the Verge & StackOverflow**: Once heavily reliant on search referrals for study questions and coding solutions, these sites have reported traffic losses as users lean on LLMs for instant, context-rich answers.
+- **Reddit & Wikipedia**: Despite AI's emergence, these platforms have seen growth in user engagement, likely due to their unique value proposition in hosting diverse, community-driven content and verified information.
 
-   Let’s break this down with a real-world example. Apps like **Rizz** (a GPT-powered AI chat assistant) were spending $10 on Google or Facebook to acquire a single customer. With AIGC affiliates, that cost plummeted to just **$0.50 per customer**—an insane margin boost.
+<details>
+<summary>Explore Traffic Data for These Platforms</summary>
 
----
+| Platform | Traffic Data |
+|----------|-------------------|
+| the Verge | ![the Verge Data](./verge.jpg) |
+| StackOverflow | ![StackOverflow Data](./so.jpg) |
+| Reddit | ![Reddit Data](./reddit.jpg) |
+| Wikipedia | ![Wikipedia Data](./wiki.jpg) |
 
-## Why AIGC Is a Game-Changer for Startups
+</details>
 
-For startups like Rizz, the economics of this strategy are transformative. Here's why:
 
-### 1. Lower Cost Per Install (CPI)
+### Google’s Response
 
-Instead of spending $2 or more to acquire a user, this AIGC-driven affiliate strategy brought CPI down to **$0.10 per customer**. That’s a 20x reduction in cost. The equation changes drastically when you’re not at the mercy of Google or Facebook’s ad pricing.
+Recognizing the potential threat, Google has launched AI-powered initiatives to handle niche queries. While these specialized searches might not contribute significantly to Google’s core ad revenue, the shift raises larger questions about how the search giant will maintain its overall market share. Ultimately, the user preference for direct AI answers—without multiple clicks—is reshaping the fundamental dynamics of online search.
 
-### 2. Reduced Risk in Monetization
+## LLM as a Market Distruptor
 
-With costs so low, profitability becomes far easier to achieve. For example:
+### The Innovator’s Dilemma
 
-- At $2 per user, an app would need at least **20% of users to convert** to subscriptions to break even.
-- At $0.10 per user, even a **1% conversion rate** makes the app wildly profitable.
+LLMs exemplify a classic “innovator’s dilemma.” They provide a fundamentally new way to find information and solve problems, forcing established players to either cannibalize their existing revenue streams or risk becoming obsolete. Google, for instance, is under pressure to integrate AI technologies more deeply into its product suite, even if that risks reducing some of its traditional ad-based income.
 
-To put this into perspective: the average app subscription rate in the U.S. is 5%. As long as your app isn’t crashing on the welcome screen, you’re almost guaranteed to win.
 
-### 3. Eliminating Dependence on Big Ad Platforms
+### Monetization Challenges
 
-AIGC doesn’t just lower costs—it frees startups from the monopolistic grip of platforms like Google and Facebook. Instead of paying for every impression, the costs shift to the creation and maintenance of these AIGC-powered affiliate accounts, which have a compounding return over time as they gain followers and engagement.
+While OpenAI, Google, and other AI-focused companies are front and center in public discourse, the question of monetization remains unresolved:
 
----
+- **OpenAI**: Has experimented with subscription models and API licensing.
+- **Startups Leveraging LLMs**: Many rely on venture funding while searching for a scalable model—some of which aim to specialize in vertical markets (e.g., code orchestration, AI-driven search, or customer service).
 
-## Why This Strategy Works
+It is entirely possible that a new entrant—neither a Big Tech incumbent nor the current AI darlings—will discover a breakthrough revenue model, potentially transforming the competitive landscape yet again.
 
-AIGC content has two distinct advantages that make it perfect for this affiliate-driven model:
+### Companies Must Adapt or Vanish
 
-1. **Scalability**  
-   AI-generated content can be produced in bulk at a fraction of the cost of traditional content creation. Whether it’s an AI-generated TikTok influencer or a sleek Instagram reel, AIGC allows marketers to scale campaigns effortlessly.
+For internet businesses, the message is clear: adapt or risk disappearing within 3–5 years. Traditional platforms that fail to weave AI into their core offerings could see their user bases dwindle.
 
-2. **Authenticity (or the Illusion of It)**  
-   People on social media engage with accounts that feel authentic or aspirational. AIGC can replicate the aesthetics and personalities that resonate with audiences, making these accounts highly effective without requiring a human behind them.
+- **Verticals at Risk**: Sites that rely on crowd-sourced content (e.g., Q&A platforms, educational resources) face immediate pressure to innovate or partner with AI services.
+- **Opportunities**: Incorporating AI-driven personalization, content summarization, or advanced analytics can help these companies stand out and maintain user loyalty.
 
----
+### Customer Acquisition in an AI-First World
 
-## How Startups Can Leverage This
+Beyond traditional advertising on Facebook or Google, new affiliate models driven by AI-generated content are proving highly cost-effective:
 
-If you’re a startup founder or marketer, this strategy is not just a hack—it’s a playbook:
+- **AIGC Affiliate Networks**: Marketers use AI tools to produce social media posts at scale, building large audiences at minimal cost.
+- **Cost Savings**: Apps that once spent $10 per user via Google Ads are now acquiring users at a fraction of the cost (e.g., $0.50) through these AI-powered affiliates.
+- **Implication**: Lower customer acquisition costs open the door to a wave of new apps, while also challenging legacy players reliant on pricey pay-per-click models.
 
-1. Partner with **AIGC-powered affiliate networks** to drive users to your app or website.
-2. Focus on **low-cost content production** and account management instead of paying ad giants for impressions.
-3. Lower your CAC (customer acquisition cost) to the point where even a modest subscription or purchase rate makes your app profitable.
+## Overhype vs. Underhype & Future of LLM Development
+### Overhyped Startups
 
----
+The AI gold rush has spurred countless startups to claim they have the next groundbreaking LLM application. Yet the reality is that many will struggle with:
 
-The beauty of this strategy lies in its simplicity. As long as your app has a decent retention rate, it’s nearly impossible to lose. By leveraging the unique scalability and cost advantages of AIGC, startups can rewrite the rules of customer acquisition, bypassing traditional advertising giants and building a direct, sustainable growth engine.
+- **Product-Market Fit**: Users may be intrigued by AI-based features, but enthusiasm alone doesn’t guarantee sustained adoption.
+- **Commoditization Risk**: Improvements in LLM models (GPT-4, GPT-5, etc.) quickly level the playing field for all AI-driven products, eroding competitive advantages unless startups offer unique, high-value workflows.
+
+### Underhyped Niches
+
+On the flip side, certain specialized areas—like code orchestration, domain-specific search, or automated compliance workflows—may quietly gain traction. These niches focus on concrete, high-value problems that general-purpose LLMs or “agentic solutions” don’t fully address.
+
+### Scaling Law and Data Constraints
+
+The race to build bigger and better models is exemplified by rumors of Elon Musk assembling GPU clusters of unprecedented scale. While throwing more compute at the problem has historically yielded large performance gains, experts warn of hitting a “data wall”:
+
+- **Data Limitations**: High-quality training datasets are finite, and repeatedly feeding the same data to larger models hits diminishing returns.
+- **Agentic Aspirations**: Future LLM iterations promise advanced reasoning or even self-awareness, but actual progress toward “true AGI” remains hotly debated.
+
+### Long-Term Outlook
+
+Although some researchers are skeptical of short-term breakthroughs, most agree that LLMs will continue to evolve in capability and sophistication. The question is not if they will improve, but how these improvements will manifest and whether business and legal frameworks can keep pace.

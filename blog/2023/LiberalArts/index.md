@@ -45,6 +45,7 @@ I am a strong believer in "Orthogonal Learning", an approach to gathering inputs
 | ---------------------------------- | -------------------- |
 | ![](airplane.jpg)                  | ![](human.jpeg)      |
 
+<!--truncate-->
 - Donald Knuth used a lot of real-life problems to describe algorithms problems in his book _"The Art of Computer Programming"_, the example of using train track design to explain dequeue data structure is fascinating:
 
 | Track Design (Civil Engineering) | Dequeue (Computer Data Structure) |

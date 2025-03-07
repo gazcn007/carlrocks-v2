@@ -1,13 +1,15 @@
 ---
-title: "A Roadmap to Success"
+id: startup-roadmap
+title: Startup Roadmap
 date: 2022-06-30
-authors: [gazcn007]
-tags: [User Growth, Startup]
+author: [gazcn007]
+description: A comprehensive guide to building and scaling startups
+keywords: [startup, entrepreneurship, business, roadmap]
 ---
 
 _This is an introduction blog to some knowledge (basic) and vocabs I have learnt building mobile products. _
 
-# Startup Skill Radar Chart 🧭
+# Mobile Product Skill Radar Chart 🧭
 
 For any Internet startup, you need to know your advantages and disadvantages just so you don't get lured down a blind alley.
 ![](Radar.png)
