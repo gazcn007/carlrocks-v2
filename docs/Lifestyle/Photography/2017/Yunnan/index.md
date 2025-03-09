@@ -1,5 +1,5 @@
 ---
-title: Yunnan and Shangri-La
+title: Yunnan, China
 date: 2017-08-26 15:12:58
 tags: [Travel]
 ---

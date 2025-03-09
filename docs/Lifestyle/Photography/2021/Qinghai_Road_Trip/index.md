@@ -1,5 +1,5 @@
 ---
-title: Qinghai Road Trip
+title: Qinghai, China
 date: 2021-09-22 23:33:22
 tags: [Travel]
 ---

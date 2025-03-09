@@ -1,5 +1,5 @@
 ---
-title: Paul McCartney Refreshen Up Concert
+title: Paul McCartney, Vancouver, B.C.
 date: 2019-07-06
 tags: [Music]
 ---

@@ -1,5 +1,5 @@
 ---
-title: Elements of Sichuan
+title: Chengdu, China
 date: 2018-06-20 14:18:06
 tags: [Travel]
 ---

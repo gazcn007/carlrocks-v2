@@ -1,7 +1,6 @@
 ---
 id: index
-title: Fall
-sidebar_label: Fall
+title: Richmond, B.C.
 sidebar_position: 1
 ---
 

@@ -1,13 +1,16 @@
 ---
-title: Chongqing, a 3D city
+title: Chongqing, China
 date: 2018-07-01 14:24:48
 tags: [Travel]
 ---
+![](birds.jpg)
+![](cable.jpg)
+![](noodles.jpg)
 
+<!--truncate-->
 ![](1.jpeg)
 ![](1-2.jpeg)
 ![](2.jpeg)
-<!--truncate-->
 ![](3.jpeg)
 ![](3-1.jpeg)
 ![](4.jpeg)

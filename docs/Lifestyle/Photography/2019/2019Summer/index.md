@@ -1,5 +1,5 @@
 ---
-title: Summer 2019 Highlights
+title: Granville, B.C.
 date: 2019-06-01
 tags: [Photography]
 ---

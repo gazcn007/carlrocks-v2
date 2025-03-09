@@ -1,5 +1,5 @@
 ---
-title: Neveda
+title: Death Valley, Neveda
 date: 2019-12-29 12:32:49
 tags: [Travel]
 ---

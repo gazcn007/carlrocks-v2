@@ -1,7 +1,6 @@
 ---
 id: index
-title: Queen's Rhopsody Tour
-sidebar_label: Queen's Rhopsody Tour
+title: Queen's Concert, Vancouver, B.C.
 sidebar_position: 1
 date: 2019-07-10
 tags: [Concert]

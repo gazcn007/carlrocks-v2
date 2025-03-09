@@ -1,5 +1,5 @@
 ---
-title: Hainan Trip
+title: Hainan, China
 date: 2019-02-01 23:28:04
 tags: [Travel]
 ---

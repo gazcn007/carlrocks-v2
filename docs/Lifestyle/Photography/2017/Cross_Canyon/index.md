@@ -1,5 +1,5 @@
 ---
-title: Grand Canyon
+title: Grand Canyon, Colorado
 date: 2017-10-15 15:51:47
 tags: [Travel]
 ---
