@@ -21,6 +21,8 @@ In academia, technical interviews, and in the industry, the standards for evalua
 
 Examples of these reward mechanisms include getting an A in a course because your exam answers were elegant, or landing a job offer because you wrote a perfect algorithm that solved a Hackerrank problem faster than anyone else. Additionally, building a better API product than Stripe does not necessarily mean that people will abandon Stripe and use your product.
 
+<!--truncate-->
+
 ### 2. Narrow Field of View
 
 Engineers often have limited interaction with customers. Typically, they focus on writing code, allowing product managers and designers to define the features that need to be implemented. This can result in a bottom-up working model where engineers remain in the background. However, numerous thought-leaders, like Paul Graham and Clayton Christensen, have emphasized the importance of understanding and interacting with customers. In his essay ["Do Things That Don't Scale"](http://paulgraham.com/ds.html), Paul Graham remarks that:

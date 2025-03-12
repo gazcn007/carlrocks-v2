@@ -25,6 +25,8 @@ A conversation with a senior design manager at Airbnb revealed a paradigm shift:
 
 - **Implication**: Traditional UI metrics, such as load times and animations, may soon take a back seat to AI responsiveness and contextual understanding.
 
+<!--truncate-->
+
 ### UI & UX Evolution
 
 Historically, thoughtful design and playful animations helped mask slow load times or complicated workflows. In an AI-empowered future, design may prioritize minimizing friction:

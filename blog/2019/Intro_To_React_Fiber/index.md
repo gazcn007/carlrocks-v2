@@ -33,6 +33,7 @@ You can first experience the difference between React Fiber (v17+) and pre-Fiber
 You can tell a huge difference between the two versions, the old reconcilor is very slow, but the fiber one is very smooth.
 
 ![](./diff.jpg)
+<!--truncate-->
 
 ### Diff Calculation of React
 
