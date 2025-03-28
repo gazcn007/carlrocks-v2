@@ -1,5 +1,5 @@
 ---
-title: How to Get Accepted to Stanford Master's Programs
+title: Tips on Stanford Masters Applications
 date: 2025-03-10
 authors: [gazcn007]
 tags: [Takeaways]
