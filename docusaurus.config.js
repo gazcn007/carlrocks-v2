@@ -8,7 +8,7 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Carl’s Tech Journal",
+  title: "Carl's Tech Journal",
   tagline: "Code, Craft, Create",
   url: "https://carlrocks.com",
   baseUrl: "/",
@@ -86,16 +86,19 @@ const config = {
             to: "/docs/Product/Startup/ARoadmap",
             label: "Product",
             position: "left",
+            activeBaseRegex: "^/docs/Product",
           },
           {
             to: "/docs/Technology/Algorithms/Backtracking/Introduction",
             label: "Technology",
             position: "left",
+            activeBaseRegex: "^/docs/Technology",
           },
           {
             to: "/docs/Lifestyle/Journey",
             label: "Lifestyle",
             position: "left",
+            activeBaseRegex: "^/docs/Lifestyle",
           },
           // {to: '/docs/About', label: 'Me', position: 'left'},
           { to: "/blog", label: "Blog", position: "right" },
